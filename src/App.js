@@ -1,15 +1,13 @@
 import React, { useState } from "react"
+import "bootstrap/dist/css/bootstrap.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
 
 
   return (
-    <div>
-      <h1>Counter Test</h1>
-      <h2>{count}</h2>
-      <button onClick={() => setCount(count + 1) }>Increment</button>
+    <div className="container bg-secondary border border-warning rounded border-5 h-100 justify-content-center align-items-center">
+     <h1>hello</h1>
     </div>
   );
 }
